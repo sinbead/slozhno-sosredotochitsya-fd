@@ -17,6 +17,7 @@
 }
 
 .header {
+  block-size: 100vh;
   margin-block-end: var(--space-between-section);
 }
 
@@ -167,7 +168,8 @@
 }
 
 .footer {
-  margin-block-start: var(--space-between-section);
+  block-size: 100vh;
+ margin-block-start: var(--space-between-section);
 }
 
 .footer__title {

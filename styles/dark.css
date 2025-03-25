@@ -23,7 +23,7 @@
   border-right: 1px solid var(--accent-color);
 }
 
-.theme-dark .header__theme-menu-button{
+.theme-dark .header__theme-menu-button {
   color: var(--accent-color);
 }
 

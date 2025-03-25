@@ -22,7 +22,7 @@
   border-right: 1px solid var(--text-color);
 }
 
-.theme-light .header__theme-menu-button{
+.theme-light .header__theme-menu-button { 
   color: var(--text-color);
 }
 
