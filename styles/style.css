@@ -168,7 +168,7 @@
 }
 
 .footer {
-  block-size: 100vh;
+ height: 100vh;
  margin-block-start: var(--space-between-section);
 }
 
