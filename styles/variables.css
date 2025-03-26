@@ -13,7 +13,7 @@
   --font-size: 18px;
   --page-padding: 10px;
   --decorated-zone-margin: 40px;
-  --space-between-cards: 50px
+  --space-between-cards: 50px;
 }
 
 @media (min-width: 768px) {
