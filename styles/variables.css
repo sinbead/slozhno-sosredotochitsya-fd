@@ -12,13 +12,15 @@
   --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size: 18px;
   --page-padding: 10px;
-  --space-between-section: 50px;
+  --decorated-zone-margin: 40px;
+  --space-between-cards: 50px
 }
 
 @media (min-width: 768px) {
   :root {
     --page-padding: 20px;
-    --space-between-section: 80px;
+    --decorated-zone-margin: 60px;
+    --space-between-cards: 80px;
   }
 }
 
