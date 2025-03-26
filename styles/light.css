@@ -17,6 +17,17 @@
   --bg-image: url('../images/cover-image-light.png');
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --text-color: #353430;
+    --header-color: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --description-text-color: #353430;
+    --bg-image: url('../images/cover-image-light.png');
+  }
+}
+
 .theme-light .decorated-zone::before {
   border-top: 1px solid var(--text-color);
   border-right: 1px solid var(--text-color);
