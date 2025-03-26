@@ -58,7 +58,7 @@
 }
 
 .header__theme-menu-button:active {
-  border: 1px solid var(--accent-color);
+  outline: 1px solid;
 }
 
 .header__theme-menu-button:hover {
@@ -131,7 +131,7 @@
 
 .link:focus {
   outline: none;
-  
+
 }
 .link:focus-visible {
   border: 1px solid var(--text-color);
