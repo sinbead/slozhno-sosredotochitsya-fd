@@ -1,1 +1,1 @@
-slozhno-sosredotochitsya
+https://github.com/sinbead/slozhno-sosredotochitsya-fd
