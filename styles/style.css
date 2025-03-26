@@ -60,7 +60,7 @@
   text-transform: lowercase;
   border: none;
   background-color: transparent;
- 
+
 }
 
 .header__theme-menu-button:active {
@@ -135,6 +135,7 @@
   outline: none;
 
 }
+
 .link:focus-visible {
   border: 1px solid var(--text-color);
 }
@@ -303,6 +304,11 @@
 
   .header {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
+  }
+
+  .theme-light .header {
+    grid-template-rows: 1fr auto 1fr;
   }
 
   .header__theme-menu {
@@ -424,6 +430,10 @@
 @media (min-width: 1024px) {
   .header {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto 1fr;
+  }
+
+  .theme-light .header {
     grid-template-rows: auto 1fr auto 1fr;
   }
 
