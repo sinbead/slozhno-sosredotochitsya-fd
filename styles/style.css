@@ -396,6 +396,18 @@
     margin-inline-start: -20px;
   }
 
+  .cards-section__reason {
+    grid-template-columns: 315px 1fr 1fr;
+  }
+
+  .cards-section__reason .card__title {
+    grid-column: 1;
+  }
+
+  .cards-section__reason .card {
+    grid-column: 2 / 4;
+  }
+
   .cards-section__concentration {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr;
@@ -409,5 +421,17 @@
   .cards-section__concentration .card {
     grid-column: span 1;
     grid-row: 2;
+  }
+
+  .cards-section__advice {
+    grid-template-columns: 315px 1fr 1fr;
+  }
+
+  .cards-section__advice .card__title {
+    grid-column: 1;
+  }
+
+  .cards-section__advice .card {
+    grid-column: 2 / 4;
   }
 }
