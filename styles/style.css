@@ -229,14 +229,31 @@
 }
 
 @media (prefers-color-scheme: light) {
+  .theme-dark .record::after {
+    display: block;
+  }
 
-.theme-dark .record::after {
-  display: block;
+  .theme-dark .record::before {
+    display: block;
+  }
 }
 
-.theme-dark .record::before {
-  display: block;
-}
+@media (prefers-color-scheme: dark) {
+  .record::after {
+    display: block;
+  }
+
+  .record::before {
+    display: block;
+  }
+
+  .theme-light .record::after {
+    display: none;
+  }
+
+  .theme-light .record::before {
+    display: none;
+  }
 }
 
 .decorated-zone::before {
