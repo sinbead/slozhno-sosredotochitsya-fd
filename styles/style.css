@@ -45,8 +45,8 @@
 }
 
 .header__theme-menu-button {
-  padding-inline: 13px;
-  padding-block: 1.5px;
+  block-size: 26px;
+  inline-size: 70px;
   font-weight: 400;
   font-size: var(--font-size);
   line-height: 1;
@@ -54,7 +54,7 @@
   text-transform: lowercase;
   border: none;
   background-color: transparent;
-  block-size: 26px;
+ 
 }
 
 .header__theme-menu-button:active {
