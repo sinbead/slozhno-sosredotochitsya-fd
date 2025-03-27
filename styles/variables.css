@@ -16,6 +16,7 @@
   --page-padding: 10px;
   --decorated-zone-margin: 40px;
   --space-between-cards: 50px;
+  --rec-display: block;
 }
 
 @media (min-width: 768px) {

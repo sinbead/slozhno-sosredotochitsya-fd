@@ -200,7 +200,7 @@
   font-size: var(--font-size);
   line-height: 1.39;
   font-weight: 400;
-  display: none;
+  display: var(--rec-display);
 }
 
 .record::before {
@@ -213,47 +213,11 @@
   inset-block-start: 18px;
   background-color: var(--decorated-color);
   box-shadow: 0px 0px 4px 2px var(--accent-color);
-  display: none;
-}
-
-.theme-dark .record::after {
-  display: block;
-}
-
-.theme-dark .record::before {
-  display: block;
+  display: var(--rec-display);
 }
 
 .decorated-zone {
   position: relative;
-}
-
-@media (prefers-color-scheme: light) {
-  .theme-dark .record::after {
-    display: block;
-  }
-
-  .theme-dark .record::before {
-    display: block;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .record::after {
-    display: block;
-  }
-
-  .record::before {
-    display: block;
-  }
-
-  .theme-light .record::after {
-    display: none;
-  }
-
-  .theme-light .record::before {
-    display: none;
-  }
 }
 
 .decorated-zone::before {
@@ -310,12 +274,12 @@
 
   .cards-section {
     display: grid;
+    gap: 20px;
   }
 
   .cards-section__reason {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-    gap: 20px;
   }
 
   .cards-section__reason .cards-section__title {
@@ -330,7 +294,6 @@
   .cards-section__concentration {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    gap: 20px;
   }
 
   .cards-section__concentration .cards-section__title {
@@ -340,15 +303,16 @@
     margin: 0;
   }
 
-  .cards-section__concentration .card {
+  .card__concentration {
     grid-column: 1 / 5;
+  }
+
+  .card__concentration .card:last-child {
     margin-block-end: 0;
   }
 
   .cards-section__advice {
-    display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
   }
 
   .cards-section__advice .cards-section__title {
@@ -364,7 +328,7 @@
   }
 
   .cards-section__images h3 {
-    margin-block-end: 20px;
+    margin-block-end: 0;
   }
 
   .image__container {
@@ -440,7 +404,7 @@
 
   .cards-section__concentration {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr;
+    grid-template-rows: 1fr;
   }
 
   .cards-section__concentration .cards-section__title {
@@ -448,9 +412,10 @@
     grid-row: 1;
   }
 
-  .cards-section__concentration .card {
-    grid-column: span 1;
-    grid-row: 2;
+  .card__concentration {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
   .cards-section__advice {

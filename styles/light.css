@@ -17,6 +17,7 @@
   --button-hover-color: rgba(50, 49, 45, 0.4);
   --decorated-color: #353430;
   --bg-image: url('../images/cover-image-light.png');
+  --rec-display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,5 +30,6 @@
     --description-text-color: #353430;
     --button-hover-color: rgba(50, 49, 45, 0.4);
     --bg-image: url('../images/cover-image-light.png');
+    --rec-display: none;
   }
 }

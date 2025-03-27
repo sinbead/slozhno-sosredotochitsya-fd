@@ -17,4 +17,5 @@
   --decorated-color: #FF0070;
   --button-hover-color: rgba(255, 0, 112, 0.4);
   --bg-image: url('../images/cover-image-dark.png');
+  --rec-display: block;
 }
